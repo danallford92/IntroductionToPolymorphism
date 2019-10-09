@@ -3,7 +3,8 @@ package com.broomehill.nim;
 public class Main {
 
     public static void main(String[] args) {
-        UserInputReader userInputReader = null; // Create an implementation of UserInputReader to read from the command line
+        // Create an implementation of UserInputReader to read from the command line
+        UserInputReader userInputReader = new CommandLineUserInputReader();
 
         String player1Name = userInputReader.getNameFor("Player 1");
         String player2Name = userInputReader.getNameFor("Player 2");

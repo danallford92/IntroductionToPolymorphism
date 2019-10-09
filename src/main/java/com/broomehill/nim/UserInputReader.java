@@ -7,7 +7,7 @@ public interface UserInputReader {
      * @return number of sticks the user wants to pick up.
      * @param s
      */
-    int readNumberOfSticksToPickUp(String s);
+    int readNumberOfSticksToPickUp(String playerName);
 
     /**
      *

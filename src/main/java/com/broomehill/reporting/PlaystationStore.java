@@ -4,9 +4,9 @@ import java.util.Map;
 
 public class PlaystationStore {
 
-    Integer unitCost;
-    Integer unitsSold;
-    Integer unitPrice;
+    private Integer unitCost;
+    private Integer unitsSold;
+    private Integer unitPrice;
 
     public PlaystationStore(Integer unitCost, Integer unitsSold, Integer unitPrice) {
         this.unitCost = unitCost;
